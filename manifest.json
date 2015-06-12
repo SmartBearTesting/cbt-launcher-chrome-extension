@@ -1,7 +1,8 @@
 {
-  "name": "CBT launcher",
-  "version": "1.0",
-  "description": "Opens the CBT test launcher in current active tab",
+  "name": "CrossBrowserTesting Test Launcher",
+  "short_name": "CBT Launcher",
+  "version": "1.2",
+  "description": "Opens the CrossBrowserTesting Test Launcher widget in the currently active tab",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
