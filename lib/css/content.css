@@ -1,8 +1,8 @@
-body[data-cbt-open='false'] > :first-of-type:not(#cbtDiv):not(#lpformframecbtusername),
-body[data-cbt-open='true'] > :first-of-type:not(#cbtDiv):not(#lpformframecbtusername) {
+body[data-cbt-open='false'] > :not(#cbtDiv):not(#lpformframecbtusername),
+body[data-cbt-open='true'] > :not(#cbtDiv):not(#lpformframecbtusername) {
     transition: -webkit-filter .3s, filter .3s;
 }
-body[data-cbt-open='true'] > :first-of-type:not(#cbtDiv):not(#lpformframecbtusername) {
+body[data-cbt-open='true'] > :not(#cbtDiv):not(#lpformframecbtusername) {
     -webkit-filter: blur(2px);
     filter: blur(2px);
 }
